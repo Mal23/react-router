@@ -16,6 +16,7 @@ export default function App() {
         <Header />
         <Switch>
           <Route path="/red" component={Red} />
+          <Route path="/blue" component={Blue} />
         </Switch>
       </>
     </Router>
